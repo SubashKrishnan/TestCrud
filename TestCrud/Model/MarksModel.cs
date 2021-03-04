@@ -5,12 +5,13 @@ using System.Threading.Tasks;
 
 namespace TestCrud.Model
 {
-    public class StudentsModel
+    public class MarksModel
     {
-        public Guid? ID { get; set; }
-        public string NAME { get; set; }
-        public int AGE { get; set; }
+        public Guid STUDENT_ID { get; set; }
+        public int M1 { get; set; }
+        public int M2 { get; set; }
+        public int M3 { get; set; }
         public DateTime? DATE { get; set; }
+
     }
-    
 }
